@@ -17,5 +17,5 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
         verbose_name = "Обычные пользователи"
 
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = []
+    REQUIRED_FIELDS = ['username']
     
